@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task6N</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5fcf92ced5.js" crossorigin="anonymous"></script>
+
+</head>
+
+    
+    
+    <body>
+
+        <header class="header clearfix">
+            <div class="logo clearfix">
+                <a href=""> <img class="logoImg" src="images/Logo.png" alt="Logo of MATERIO"></a>
+            
+            <a href="#" class="logoText">MATERIO</a>
+        </div>
+            <div class="leftHeader">
+                <input type="text" class="searchInp">
+            </div>
+            <div class="rightHeader">
+                <a href=""><i class="fa-solid fa-moon"></i></a>
+                <a href=""><i class="fa-solid fa-bell"></i></a>
+                <a href="" class="profileLink">
+    
+                        <img src="images/userAvatar.png" class="profilImg" alt="user profil image">
+                        <div class="userStatus"></div>
+                    </a>
+                    <button  id="hamburger" class="hamburger" onclick="onClickMenu()" >&#9776;</button>
+
+            
+    
+            </div>
+    
+        </header>
+
+    
+    <main class="clearfix">
+      
+        <aside class="leftSection clearfix" id="leftSection">
+        <!-- <aside class="aside"> -->
+          
+
+        <nav class="SideNav">
+            <ul class="navLists" id="navLists">
+                <li class="active"> <i class="fa-regular fa-house"></i> <a href="">Dashboard</a></li>
+                <li><i class="fa-solid fa-user-gear"></i><a href="">Account Settings</a></li>
+                <div class="separateList">
+                    <p> <span>PAGES</span></p>
+                </div>
+                <li> <i class="fa-solid fa-right-to-bracket"></i><a href="">Login</a></li>
+                <li> <i class="fa-solid fa-user-plus"></i><a href="">Register</a></li>
+                <li> <i class="fa-solid fa-circle-exclamation"></i><a href="">Error</a></li>
+                <div class="separateList">
+                    <p> <span>USER INTERFACE</span></p>
+                </div>
+                <li> <i>Aa</i><a href="">Typography</a></li>
+                <li> <i class="fa-solid fa-atom"></i><a href="">icons</a></li>
+                <li> <i class="fa-solid fa-credit-card"></i></i><a href="">Cards</a></li>
+                <li><i class="fa-solid fa-table"></i><a href="">Tables</a></li>
+                <li><i class="fa-solid fa-cubes"></i><a href="">Form Layouts</a></li>
+
+            </ul>
+        </nav>
+        </aside>
+
+    <!-- </section> -->
+
+
+    <section class="rightSection ">
+
+        <div class="dashboard clearfix ">
+
+            <div class="row row-1 clearfix">
+                <div class="column column-1-1 boxStyle">
+
+                    <h1 class="h1">Congratulation john! 🥳</h1>
+                    <p class="p">Best seller of the month</p>
+                    <h2>42.8k</h2>
+                    <button class="btn">VIEW SALES</button>
+                </div>
+
+
+                <div class="column column-1-2 boxStyle">
+                    <i class=" threeDots fa-solid fa-ellipsis-vertical"></i>
+
+                    <h1 class="h1">Statistics Cards</h1>
+                    <p class="p"><span style="color: black;">Total 48% growth </span>😎 this month</p>
+
+                    <ul>
+                        <li class="clearfix">
+                            <i class="blue fa-solid fa-chart-line"></i>
+                            <p class="p">Sales</p>
+                            <h3 class="h3">245K</h3>
+                        </li>
+                        <li class="clearfix">
+                            <i class="green fa-solid fa-user"></i>
+                            <p class="p">Customer</p>
+                            <h3 class="h3">12.5K</h3>
+                        </li>
+                        <li class="clearfix">
+                            <i class="orange fa-solid fa-laptop"></i>
+                            <p class="p">Products</p>
+                            <h3 class="h3">1.54K</h3>
+                        </li>
+                
+                        <li class="clearfix">
+                            <i class="lightBlue fa-solid fa-dollar-sign"></i>
+                            <p class="p">Revenue</p>
+                            <h3 class="h3" >$88K</h3>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+              
+
+
+              <div class="row row-2 clearfix">
+                <div class="column column-2-1 boxStyle clearfix">
+                    <i class=" threeDots fa-solid fa-ellipsis-vertical"></i>
+                    <h1 class="h1">Weekly Overwiev</h1>
+                    <figure>
+                        <img class="chartImg" src="images/chart.png" alt="Image of chart">
+                    </figure>
+                    <h4 class="h4">45%</h4>
+                    <p class="p">Your sales performance is 45% 😎 better compared to last month </p>
+                    <button class="btn">DETAILS</button>
+                </div>
+
+
+
+                <div class="column column-2-2 boxStyle">
+                    <i class=" threeDots fa-solid fa-ellipsis-vertical"></i>
+                    <h1 class="h1">Total Earnings</h1>
+
+                    <h5 class="h5">$24,895 <i class="fa-solid fa-caret-up"><span>10%</span></i></h5>
+                    <p class="p">Compared to $84,325 last year</p>
+
+
+
+                    <div class="card">
+                        <div class="item clearfix">
+                            <figure class="itemImg"> <img src="images/zipcar.png"  alt="Zipcar"></figure>
+                         
+                          <div class="info">
+                            <h6 class="h6">Zipcar</h6>
+                            <p class="p">Vuejs, React & HTML</p>
+                          </div>
+                          <div class="amount">
+                            <h6 class="h6">$24,895.65</h6>
+                            <div class="progress clearfix">
+                                <span class="zipcarProgress"> </span>
+                            </div>
+
+                            </div>
+                        </div>
+                      
+                        <div class="item clearfix">
+                            <figure class="itemImg" ><img src="images/bitbank.png" alt="Bitbank"></figure>
+                          
+                          <div class="info">
+                            <h6 class="h6">Bitbank</h6>
+                            <p class="p">Sketch, Figma & XD</p>
+                           
+                          </div>
+                          <div class="amount">
+                            <h6 class="h6">$8,650.20</h6>
+                            <div class="progress clearfix">
+                                <div class="bitbankProgress"></div>
+
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="item clearfix">
+                            <figure class="itemImg"><img src="images/aviato.png"  alt="Aviato"></figure>
+                          
+                          <div class="info">
+                            <h6 class="h6">Aviato</h6>
+                            <p class="p">HTML & Angular</p>
+                          </div>
+                          <div class="amount">
+                            <h6 class="h6">$1,245.80</h6> 
+                            <div class="progress lightgray clearfix">
+                                <div class="aviatoProgress"></div>
+                            </div>
+
+
+                          </div>
+                        </div>
+                      </div>
+                      
+
+
+
+
+                </div>
+
+
+
+
+                
+                <div class="column column-2-3">
+                    <div class="box-grid clearfix">
+                      <div class="box box-top-left boxStyle">
+                        <i class=" threeDots fa-solid fa-ellipsis-vertical"></i>
+                        <i class="green icon fa-solid fa-chart-simple"></i>
+
+                        <p class="h7">Total Profit</p>
+                        <p class="h8">$25.6K <sup style="color: green;">+42%</sup></p>
+                        <p class="p">Weekly Profit</p>
+
+                      </div>
+                      <div class="box box-top-right boxStyle">
+                        <i class=" threeDots fa-solid fa-ellipsis-vertical"></i>
+                        <i class="gray icon fa-solid fa-dollar-sign"></i>
+                        <p class="h7">Refunds</p>
+                        <p class="h8">$78 <sup style="color: red;">-15%</sup></p>
+                        <p class="p">Weekly Profit</p>
+
+                      </div>
+                      <div class="box box-bottom-left boxStyle">
+                        <i class=" threeDots fa-solid fa-ellipsis-vertical"></i>
+                        <i class="blue icon fa-solid fa-briefcase"></i>
+                        <p class="h7">New Project</p>
+                        <p class="h8">862 <sup style="color: red;">-18%</sup></p>
+                        <p class="p">Weekly Profit</p>
+
+                      </div>
+                      <div class="box box-bottom-right boxStyle">
+                        <i class=" threeDots fa-solid fa-ellipsis-vertical"></i>
+                        <i class="orange icon fa-regular fa-circle-question"></i>
+                        <p class="h7">Sales Queries</p>
+                        <p class="h8">15 <sup style="color: red;">-18%</sup></p>
+                        <p class="p">Weekly Profit</p>
+
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+              
+
+
+
+              <div class="row row-3 clearfix">
+
+                <div class="column column-3-1 boxStyle">
+                    <i class=" threeDots fa-solid fa-ellipsis-vertical"></i>
+
+                    <h1 class="h1">Sales By Countries</h1>
+                    <table>
+
+                        <tr>
+                            <td><span class="circleText green">US</span></td>
+                            <td class="tableContent">
+                                <p class="h8">$8,656K <sup style="color: green;"><i class="fa-solid fa-caret-up"></i> 25.8%</sup></p>
+                                <p class="p">USA</p>
+                            </td>
+                            <td>
+                                <p class="h7">894K</p>
+                                <p class="p">Sales</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="circleText red">UK</span></td>
+                            <td class="tableContent">
+                                <p class="h8">$2,415K <sup style="color: red;"><i class="fa-solid fa-caret-down"></i> 6.2%</sup></p>
+                                <p class="p">UK</p>
+                            </td>
+                            <td>
+                                <p class="h7">645K</p>
+                                <p class="p">Sales</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="circleText green">IN</span></td>
+                            <td class="tableContent">
+                                <p class="h8">$865K <sup style="color: green;"><i class="fa-solid fa-caret-up"></i> 12.4%</sup></p>
+                                <p class="p">India</p>
+                            </td>
+                            <td>
+                                <p class="h7">148K</p>
+                                <p class="p">Sales</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="circleText gray">JA</span></td>
+                            <td class="tableContent">
+                                <p class="h8">$745K <sup style="color: red;"><i class="fa-solid fa-caret-down"></i> 11.9%</sup></p>
+                                <p class="p">Japan</p>
+                            </td>
+                            <td>
+                                <p class="h7">86K</p>
+                                <p class="p">Sales</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="circleText red">KO</span></td>
+                            <td class="tableContent">
+                                <p class="h8">$45K <sup style="color: green;"><i class="fa-solid fa-caret-up"></i> 16.2%</sup></p>
+                                <p class="p">Korea</p>
+                            </td>
+                            <td>
+                                <p class="h7">42K</p>
+                                <p class="p">Sales</p>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+
+
+
+                <div class="column column-3-2 boxStyle clearfix">
+
+                    <div class="leftBox">
+                        <a href="" class="threeDots p">View All</a>
+                        <p  class="h1">Deposit</p>
+                        <table class="depositTable">
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/gumrod.png" class="tdImg" alt="Image Of Gumroad">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">Gumroad Account</h6>
+                                    <p class="p">Sell UI Kit</p>
+                                </td>
+                                <td class="orangeText">+$4,650</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/mastercard.png" class="tdImg" alt="Image Of Gumroad">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">mastercard</h6>
+                                    <p class="p">Wallet deposit</p>
+                                </td>
+                                <td class="orangeText">+$92,705</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/stripe.png" class="tdImg" alt="Image Of Gumroad">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">Stripe Account</h6>
+                                    <p class="p">IOS Application</p>
+                                </td>
+                                <td class="orangeText">+$957</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/americanBank.png" class="tdImg" alt="Image Of Gumroad">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">American Bank</h6>
+                                    <p class="p">Bank Transfer</p>
+                                </td>
+                                <td class="orangeText">+$6,837</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/bankAccount.png" class="tdImg" alt="Image Of Gumroad">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">Bank Account</h6>
+                                    <p class="p">Wallet deposit</p>
+                                </td>
+                                <td class="orangeText">+$446</td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+                    <div class="rightBox">
+                        <p  class="h1">Withdraw</p>
+                        <a href="" class="threeDots p">View All</a>
+
+
+
+
+
+                        <table class="withdrawTable">
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/google.png" class="tdImg" alt="Image Of Google">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">Google Adsence</h6>
+                                    <p class="p">Paypal deposit</p>
+                                </td>
+                                <td class="redText">-$145</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/github.png" class="tdImg" alt="Image Of Github">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">Github Enterprise</h6>
+                                    <p class="p">Security & compliance</p>
+                                </td>
+                                <td class="redText">-$1870</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/slack.png" class="tdImg" alt="Image Of Slack">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">Ugrade Slack Plan</h6>
+                                    <p class="p">Debit card deposit</p>
+                                </td>
+                                <td class="redText">-$450</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/digitalOcean.png" class="tdImg" alt="Image Of digitalOcean">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">Digital Ocean</h6>
+                                    <p class="p">Cloud Hosting</p>
+                                </td>
+                                <td class="redText">-$540</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure >
+                                        <img src="images/aws.png" class="tdImg" alt="Image Of AWS">
+                                    </figure>
+                                </td>
+                                <td class="tableContent2">
+                                    <h6 class="h6">AWS Account</h6>
+                                    <p class="p">Choosing a Cloud Platform</p>
+                                </td>
+                                <td class="redText">-$21</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+
+
+
+              </div>
+              
+
+
+
+              <div class="row row-4">
+                <div class="column column-4-1 boxStyle">
+
+                    <table class="detailsTable">
+                        <tr>
+                            <th>NAME</th>
+                            <th>EMAIL</th>
+                            <th>DATE</th>
+                            <th>SALARY</th>
+                            <th>AGE</th>
+                            <th>STATUS</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="h9 h">Sally Quinn</p>
+                                <p class="p">Human Resource Assistant</p>
+                            </td>
+                            <td>
+                                <p class="h9">eebsworth2m@sbwire.com</p>
+                            </td>
+                            <td>
+                                <p class="h9">09/27/2018</p>
+                            </td>
+                            <td>
+                               <p class="h9">$19586.23</p> 
+                            </td>
+                            <td>
+                                <p class="h9">27</p>
+                            </td>
+                            <td>
+                                <span class="statusTag blue"> Current</span>
+                            </td>
+                        </tr>
+                
+                        <tr>
+                        <tr>
+                            <td>
+                                <p class="h9 h">Margaret Bowers </p>
+                                <p class="p">Nuclear Power Engineer</p>
+                            </td>
+                            <td>
+                                <p class="h9">kocrevy0@thetimes.co.uk</p>
+                            </td>
+                            <td>
+                                <p class="h9">09/23/2016</p>
+                            </td>
+                            <td>
+                               <p class="h9">$23896.35</p> 
+                            </td>
+                            <td>
+                                <p class="h9">61</p>
+                            </td>
+                            <td>
+                                <span class="statusTag green"> Professional</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="h9 h">Minnie Roy</p>
+                                <p class="p">Environmental Specialist</p>
+                            </td>
+                            <td>
+                                <p class="h9">ediehn6@163.com</p>
+                            </td>
+                            <td>
+                                <p class="h9">10/15/2017</p>
+                            </td>
+                            <td>
+                               <p class="h9">$18991.67</p> 
+                            </td>
+                            <td>
+                                <p class="h9">59</p>
+                            </td>
+                            <td>
+                                <span class="statusTag red"> Rejected</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="h9 h">Ralph Leonard</p>
+                                <p class="p">Sales Representative</p>
+                            </td>
+                            <td>
+                                <p class="h9">dfalloona@ifeng.com</p>
+                            </td>
+                            <td>
+                                <p class="h9">06/12/2018</p>
+                            </td>
+                            <td>
+                               <p class="h9">$19252.12</p> 
+                            </td>
+                            <td>
+                                <p class="h9">30</p>
+                            </td>
+                            <td>
+                                <span class="statusTag orange"> Resigned</span>
+                            </td>
+                        </tr>
+                     
+                        <tr>
+                            <td>
+                                <p class="h9 h">Annie Martin </p>
+                                <p class="p">Operator</p>
+                            </td>
+                            <td>
+                                <p class="h9">sganderton2@tuttocitta.it</p>
+                            </td>
+                            <td>
+                                <p class="h9">03/24/2018</p>
+                            </td>
+                            <td>
+                               <p class="h9">$13076.28</p> 
+                            </td>
+                            <td>
+                                <p class="h9">66</p>
+                            </td>
+                            <td>
+                                <span class="statusTag lightBlue"> Applied</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="h9 h">Adeline Day</p>
+                                <p class="p">Senior Cost Accountant</p>
+                            </td>
+                            <td>
+                                <p class="h9">hnisius4@gnu.org</p>
+                            </td>
+                            <td>
+                                <p class="h9">08/25/2017</p>
+                            </td>
+                            <td>
+                               <p class="h9">$10909.52</p> 
+                            </td>
+                            <td>
+                                <p class="h9">33</p>
+                            </td>
+                            <td>
+                                <span class="statusTag green"> Professional</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="h9 h">Lora Jackson</p>
+                                <p class="p">Geologist</p>
+                            </td>
+                            <td>
+                                <p class="h9">ghoneywood5@narod.ru</p>
+                            </td>
+                            <td>
+                                <p class="h9">06/01/2017</p>
+                            </td>
+                            <td>
+                               <p class="h9">$17803.80</p> 
+                            </td>
+                            <td>
+                                <p class="h9">61</p>
+                            </td>
+                            <td>
+                                <span class="statusTag blue"> Current</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="h9 h">Rodney Sharp</p>
+                                <p class="p">Cost Accountant</p>
+                            </td>
+                            <td>
+                                <p class="h9">dcrossman3@google.co.jp</p>
+                            </td>
+                            <td>
+                                <p class="h9">12/03/2017</p>
+                            </td>
+                            <td>
+                               <p class="h9">$12336.17</p> 
+                            </td>
+                            <td>
+                                <p class="h9">22</p>
+                            </td>
+                            <td>
+                                <span class="statusTag green"> Professional</span>
+                            </td>
+                        </tr>
+                       
+                    </table>
+                    
+                </div>
+              </div>
+              
+
+        </div>
+
+        <footer class="clearfix ">
+            <p >@ 2025, copyright </p>
+
+            <ul>
+                <li><a href="">MIT License</a></li>
+                <li><a href="">More Themes</a></li>
+                <li><a href="">Documentation</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+
+        </footer>
+
+
+
+
+    </section>
+
+    <i onclick="scrollToTop()" id="upArrow" class="upArrow fa-solid fa-arrow-up"></i>
+
+    </main>
+
+
+<script>
+    function onClickMenu(){
+        const nav=document.getElementById("leftSection")
+        nav.classList.toggle("open")
+}
+
+const navLists = document.getElementById("navLists");
+const List = navLists.querySelectorAll("li")
+
+navLists.addEventListener("click",function (event){
+    const li = event.target.closest("li");
+    List.forEach(List => List.classList.remove("active"));
+
+    li.classList.add("active");
+
+
+})
+
+
+window.onscroll = function () {
+  const btn = document.getElementById("upArrow");
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+
+
+
+
+</script>
+
+</body>
+</html>
