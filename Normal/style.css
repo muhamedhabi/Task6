@@ -7,6 +7,8 @@ body{
     background-color: #f4f4fa;
 }
 
+
+
 a{
     text-decoration: none;
     color: black;
@@ -92,6 +94,7 @@ a{
     background-color: #27007e;
     font-weight: bold;
 }
+
 
 
 .container{
@@ -260,13 +263,19 @@ a.profileLink{
     border: 1px solid white;
 }
 
+
+
+
+
+
+
 .dashboard{
     margin-top:10px ;
 }
 
 .row{
     width: 100%;
-    margin: 15px 0px;
+    margin: 10px 0px;
     float: left;
 }
 .column-1-1,.column-1-2{
@@ -282,7 +291,7 @@ a.profileLink{
     position: relative;
     width: 35%;
     float: left;
-    background-image: url(images/prizeImage.png);
+    background-image: url(images/prizeImage-removebg.png);
     background-size: contain;
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -661,6 +670,41 @@ footer p{
 .upArrow:hover{
     background-color: blue;
 }
+
+
+
+
+
+body.dark{
+    background-color: black !important;
+    color: white !important;
+}
+body.dark .boxStyle{
+    background-color: rgb(43, 42, 42);
+    color: white !important;
+}
+body.dark ul li a ,body.dark .rightHeader i ,body.dark .logoText , body.dark p.h9.h ,body.dark .hamburger {
+    color: white !important;
+}
+body.dark .column-1-2 p span{
+color: white !important;
+font-weight: bolder;
+}
+body.dark .chartImg {
+opacity: 0.6;
+border-radius: 10px;
+}
+
+body.dark .header, body.dark .leftSection{
+    background-color: black;
+}
+body.dark .profilImg{
+    border-color: white;
+}
+body.dark .separateList p span {
+    background-color: black;
+}
+
 
 
 
