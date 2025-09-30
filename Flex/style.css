@@ -79,6 +79,7 @@ a{
 }
 
 
+
 .btn{
     background-color: #8858f4;
     color: white;
@@ -92,6 +93,51 @@ a{
     background-color: #27007e;
     font-weight: bold;
 }
+#sun{
+    color: orange;
+}
+.darkMode{
+    border: none;
+    font-size: 26px;
+    background: none;
+}
+
+
+
+
+body.dark{
+    background-color: black !important;
+    color: white !important;
+}
+body.dark .boxStyle{
+    background-color: rgb(43, 42, 42);
+    color: white !important;
+}
+body.dark ul li a ,body.dark .rightHeader i ,body.dark .logoText , body.dark p.h9.h ,body.dark .hamburger {
+    color: white !important;
+}
+body.dark .column-1-2 p span{
+color: white !important;
+font-weight: bolder;
+}
+body.dark .chartImg {
+opacity: 0.6;
+border-radius: 10px;
+}
+
+body.dark .header, body.dark .leftSection{
+    background-color: black;
+}
+body.dark .profilImg{
+    border-color: white;
+}
+body.dark .separateList p span {
+    background-color: black;
+}
+
+
+
+
 
 
 .container{
@@ -281,20 +327,11 @@ a.profileLink{
 }
 
 
-/* .column-1-1,.column-1-2{
-    min-height: 175px;
-}
-.column-2-1,.column-2-2,.column-2-3{
-    min-height: 345px;
-}
-.column-3-1,.column-3-2{
-    min-height: 340px;
-} */
 
 .column-1-1{
     position: relative;
     width: 35%;
-    background-image: url(images/prizeImage.png);
+    background-image: url(images/prizeImage-removebg.png);
     background-size: contain;
     background-position: right bottom;
     background-repeat: no-repeat;
